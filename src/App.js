@@ -81,7 +81,7 @@ const App = () => {
           type="text"
           value={todoText}
           onChange={(e) => setTodoText(e.target.value)}
-          placeholder="Enter a your task..."
+          placeholder="Enter a task..."
         />
         <button onClick={handleAddTodo}>{editId ? "Update" : "Add"}</button>
       </div>
